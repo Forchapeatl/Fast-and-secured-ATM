@@ -1,5 +1,7 @@
 # Fast-and-secured-ATM
 
+![image](https://user-images.githubusercontent.com/24577149/195977588-b8b8fc9b-447b-4cef-9111-7d8520956070.png)
+
 One way to model the ATM logic would be as a state machine. In each state, the
 thread waits for an acceptable message, which it then processes. This may result in
 transitioning to a new state, and the cycle continues. The states involved in a simple
